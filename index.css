@@ -191,12 +191,12 @@ body {
   margin: 0;
 }
 
-.activity-athlets > div {
+.activity-athlets > .activity-point, .activity-athlets > .activity-title {
   padding-left: 1000px;
   padding-right: 190px;
 }
 
-.activity-players > div {
+.activity-players > .activity-point, .activity-players > .activity-title {
   padding-left: 190px;
   padding-right: 980px;
 }
@@ -424,7 +424,7 @@ body {
     background-position: right 450px top 150px;
   }
   
-  .activity-athlets > div {
+  .activity-athlets > .activity-point, .activity-athlets > .activity-title {
     padding-left: 290px;
     padding-right: 40px;
   }
@@ -439,7 +439,7 @@ body {
     padding-bottom: 30px;
   }
 
-  .activity-players > div {
+  .activity-players > .activity-point, .activity-players > .activity-title {
     padding-right: 290px;
     padding-left: 40px;
   }
@@ -565,8 +565,8 @@ body {
     background-position-x: center;
     background-position-y: 80px;
   }
-  
-  .activity-athlets > div {
+
+  .activity-athlets > .activity-point, .activity-athlets > .activity-title {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -580,8 +580,8 @@ body {
     background-position-x: center;
     background-position-y: 80px;
   }
-  
-  .activity-players > div {
+
+  .activity-players > .activity-point, .activity-players > .activity-title {
     padding-left: 20px;
     padding-right: 20px;
   }
