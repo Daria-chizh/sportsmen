@@ -62,6 +62,7 @@ body {
   white-space: normal;
   letter-spacing: 0.05em;
   line-height: 100px;
+  margin-top: 290px;
 }
 
 .header-line-left {
@@ -72,13 +73,13 @@ body {
   text-align: right;
 }
 
+.header-line {
+  display: block;
+}
+
 .header-container {
   z-index: 2;
   position: relative;
-}
-
-.container-text {
-  margin-top: 290px;
 }
 
 .header-button-icons {
