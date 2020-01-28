@@ -99,6 +99,9 @@ body {
   background-color: #5e42b0;
   color: white;
   text-decoration: none;
+}
+
+.header-title-button-container:not(:first-child) {
   margin-left: 40px;
 }
 
@@ -519,7 +522,11 @@ body {
     padding-left: 40px;
     margin-top: 20px;
   }
-  
+
+  .header-title-button-container:not(:first-child) {
+    margin-left: 0;
+  }
+
   .header-title-button-container-app {
     width: 280px;
     height: 35px;
