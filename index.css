@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.ttf?raw=true");
+  src: url("fonts/OpenSans-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.ttf?raw=true");
+  src: url("fonts/OpenSans-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
