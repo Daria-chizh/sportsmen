@@ -27,6 +27,7 @@ body {
   background-color: #000000;
   position: relative;
   padding-bottom: 140px;
+  padding-top: 56px;
 }
 
 .header::after {
@@ -49,7 +50,6 @@ body {
 
 .logo-icon {
   text-align: center;
-  padding-top: 56px;
 }
 
 .header-title {
