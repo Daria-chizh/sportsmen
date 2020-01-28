@@ -56,7 +56,6 @@ body {
   color: white;
   font-weight: bold;
   font-size: 90px;
-  margin-top: 290px;
   padding-left: 180px;
   padding-right: 180px;
   text-transform: uppercase;
@@ -78,6 +77,9 @@ body {
   position: relative;
 }
 
+.container-text {
+  margin-top: 290px;
+}
 
 .header-button-icons {
   width: 50px;
