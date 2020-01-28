@@ -20,7 +20,6 @@ body {
 }
 
 .header {
-  height: 960px;
   background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1920.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -306,7 +305,6 @@ body {
 }
 
 .footer {
-  height: 960px;
   background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1920.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -503,7 +501,6 @@ body {
 
 @media (max-width: 640px) {
   .header {
-    height: 560px;
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
   }
   
@@ -639,10 +636,6 @@ body {
   
   .section-point-description {
     font-size: 16px;
-  }
-  
-  .footer {
-    height: 560px;
   }
   
   .footer-container {
