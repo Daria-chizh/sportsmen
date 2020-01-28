@@ -375,12 +375,14 @@ body {
   font-size: 80px;
   font-weight: bold;
   line-height: 70px;
+  margin: 0;
 }
 
 .footer-title-text-description {
   color: #a496ca;
   font-size: 30px;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer .app-buttons {
