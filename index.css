@@ -248,7 +248,7 @@ body {
   height: 100%;
 }
 
-.section-point-poster > picture {
+.section-point-poster > .section-point-poster-picture {
   height: 100%;
   display: block; 
 }
