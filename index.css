@@ -77,6 +77,10 @@ body {
   display: block;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .header-container {
   z-index: 2;
   position: relative;
