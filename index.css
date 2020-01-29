@@ -215,30 +215,19 @@ body {
   padding-top: 20px;
 }
 
-.activity-players::after {
+.activity-poster {
   position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/basketballer_991.png");
-  background-repeat: no-repeat;
-  background-position: right 140px top 0px;
 }
 
-.activity-athlets:after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
+.activity-players > .activity-poster {
   top: 0;
-  left: 0;
-  background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/footballer_566.png");
-  background-repeat: no-repeat;
-  background-position: left 370px top 20px;
+  right: 140px;
+}
+
+.activity-athlets > .activity-poster {
+  top: 50px;
+  left: 370px;
 }
 
 .section-activity {
@@ -420,9 +409,9 @@ body {
     margin-top: 300px;
   }
   
-  .activity-athlets:after {
-    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/footballer_497.png");
-    background-position: right 450px top 150px;
+  .activity-athlets > .activity-poster {
+    right: 450px;
+    top: 150px;
   }
   
   .activity-athlets > .activity-point, .activity-athlets > .activity-title {
@@ -430,9 +419,9 @@ body {
     padding-right: 40px;
   }
   
-  .activity-players:after {
-    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/basketballer_436.png");
-    background-position: right 0px top 80px;
+  .activity-players > .activity-poster {
+    right: 0;
+    top: 80px;
   }
   
   .activity-point {
@@ -558,10 +547,9 @@ body {
     padding-top: 0;
   }
   
-  .activity-athlets:after {
-    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/footballer_192.png");
-    background-position-x: center;
-    background-position-y: 80px;
+  .activity-athlets > .activity-poster {
+    top: 80px;
+    left: calc(50%);
   }
 
   .activity-athlets > .activity-point, .activity-athlets > .activity-title {
@@ -574,9 +562,8 @@ body {
   }
   
   .activity-players:after {
-    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/basketballer_302.png");
-    background-position-x: center;
-    background-position-y: 80px;
+    top: 80px;
+    left: calc(50%);
   }
 
   .activity-players > .activity-point, .activity-players > .activity-title {
