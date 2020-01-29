@@ -30,6 +30,11 @@ body {
   padding-top: 56px;
 }
 
+.header-container {
+  z-index: 2;
+  position: relative;
+}
+
 .header::after {
   content: "";
   background-color: #0a0e34;
@@ -41,15 +46,15 @@ body {
   bottom: 0;
 }
 
+.header-logo {
+  text-align: center;
+}
+
 .logo-icon-header,
 .logo-icon-footer {
   width: 195px;
   height: 55px;
   fill: #ffffff;
-}
-
-.logo-icon {
-  text-align: center;
 }
 
 .header-title {
@@ -81,18 +86,13 @@ body {
   font-weight: bold;
 }
 
-.header-container {
-  z-index: 2;
-  position: relative;
-}
-
-.header-button-icons {
+.app-button-icon {
   width: 50px;
   height: 50px;
   fill: #ffffff;
 }
 
-.header-title-button-container-app {
+.app-button {
   border: 1px solid black;
   border-radius: 40px;
   width: 315px;
@@ -105,11 +105,11 @@ body {
   text-decoration: none;
 }
 
-.header-title-button-container:not(:first-child) {
+.app-button-container:not(:first-child) {
   margin-left: 40px;
 }
 
-.header-button-label {
+.app-button-label {
   text-transform: uppercase;
   font-size: 12px;
   margin-left: 20px;
@@ -320,6 +320,12 @@ body {
   background-size: cover;
   background-color: #4d79ff;
   position: relative;
+  padding-top: 220px;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 2;
 }
 
 .footer::after {
@@ -331,12 +337,6 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
-}
-
-.footer-container {
-  z-index: 2;
-  position: relative;
-  padding-top: 220px;
 }
 
 .footer-title {
@@ -488,9 +488,6 @@ body {
   
   .footer {
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg");
-  }
-  
-  .footer-container {
     padding-top: 120px;
   }
   
@@ -529,11 +526,11 @@ body {
     margin-top: 20px;
   }
 
-  .header-title-button-container:not(:first-child) {
+  .app-button-container:not(:first-child) {
     margin-left: 0;
   }
 
-  .header-title-button-container-app {
+  .app-button {
     width: 280px;
     height: 35px;
     margin-left: 0;
@@ -548,7 +545,7 @@ body {
     margin-left: 8px;
   }
   
-  .header-button-icons {
+  .app-button-icon {
     width: 20px;
     height: 20px;
   }
@@ -653,10 +650,6 @@ body {
     font-size: 16px;
   }
   
-  .footer-container {
-    padding-top: 90px;
-  }
-  
   .footer-title-text {
     flex: 0 1 100%;
     margin-top: 50px;
@@ -700,5 +693,6 @@ body {
   
   .footer {
     background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg");
+    padding-top: 90px;
   }
 }
