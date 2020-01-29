@@ -241,8 +241,9 @@ body {
   background-position: left 370px top 20px;
 }
 
-.section-content {
+.section-activity {
   position: relative;
+  display: flex;
   height: 100%;
 }
 
@@ -260,11 +261,6 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.section-content {
-  display: flex;
-  position: relative;
 }
 
 .section-reversed {
@@ -457,7 +453,7 @@ body {
     font-size: 16px;
   }
   
-  .section-content {
+  .section-activity` {
     flex-direction: column;
   }
   
@@ -610,7 +606,7 @@ body {
     background-color: #fafafa;
   }
   
-  .section-content {
+  .section-activity {
     flex-direction: column;
   }
   
