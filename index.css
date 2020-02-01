@@ -129,8 +129,15 @@ body {
   font-weight: bold;
   font-size: 80px;
   color: #e7e7e7;
-  margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.activity-title {
+  margin-top: 0;
+}
+
+.section-point-title {
+  margin-top: 30px;
 }
 
 .activity-point-label {
@@ -207,13 +214,13 @@ body {
 
 .activity-athlets {
   position: relative;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 50px;
 }
 
 .activity-players {
   position: relative;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .activity-poster {
@@ -545,7 +552,7 @@ body {
   }
   
   .activity-athlets {
-    padding-top: 0;
+    padding-top: 10px;
   }
   
   .activity-athlets > .activity-poster {
@@ -559,7 +566,7 @@ body {
   }
   
   .activity-players {
-    padding-top: 0;
+    padding-top: 10px;
   }
   
   .activity-players:after {
@@ -574,7 +581,6 @@ body {
   
   .activity-title {
     font-size: 50px;
-    margin-top: 10px;
     margin-bottom: 240px;
   }
   
