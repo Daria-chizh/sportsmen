@@ -28,11 +28,7 @@ body {
   position: relative;
   padding-bottom: 140px;
   padding-top: 56px;
-}
-
-.header-container {
-  z-index: 2;
-  position: relative;
+  z-index: 1;
 }
 
 .header::after {
@@ -44,6 +40,7 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .header-logo {
@@ -317,11 +314,7 @@ body {
   background-color: #4d79ff;
   position: relative;
   padding-top: 220px;
-}
-
-.footer-container {
-  position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .footer::after {
@@ -333,6 +326,7 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .footer-title {
