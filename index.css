@@ -562,8 +562,11 @@ body {
   }
   
   .activity-athlets > .activity-poster {
-    top: 80px;
-    left: calc(50%);
+    top: initial;
+    right: initial;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .activity-athlets > .activity-point, .activity-athlets > .activity-title {
@@ -575,19 +578,25 @@ body {
     padding-top: 10px;
   }
   
-  .activity-players:after {
-    top: 80px;
-    left: calc(50%);
+  .activity-players > .activity-poster {
+    top: initial;
+    left: initial;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
   .activity-players > .activity-point, .activity-players > .activity-title {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
+  .activity-poster + .activity-point {
+    margin-top: 240px;
+  }
+
   .activity-title {
     font-size: 50px;
-    margin-bottom: 240px;
   }
   
   .activity-point-label {
