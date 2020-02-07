@@ -422,11 +422,15 @@ body {
     padding-left: 40%;
     padding-right: 40px;
   }
-  
+
+  .activity-players {
+    padding-top: 10px;
+  }
+
   .activity-players > .activity-poster {
     right: 0;
     left: initial;
-    top: 80px;
+    top: 0;
   }
   
   .activity-point {
