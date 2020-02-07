@@ -212,18 +212,18 @@ body {
 .activity-athlets {
   position: relative;
   padding-top: 60px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
 .activity-players {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   overflow: hidden;
 }
 
 .activity-poster {
   position: absolute;
-  height: 100%;
 }
 
 .activity-players > .activity-poster {
