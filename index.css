@@ -622,6 +622,7 @@ body {
   
   .section-point-poster {
     width: 100%;
+    height: 110vw;
   }
   
   .section-point-text {
@@ -634,7 +635,7 @@ body {
   }
   
   .section-point-index {
-    top: calc(50% - 10px);
+    top: calc(110vw - 70px + 20px);
     width: 70px;
     height: 70px;
     left: 20px;
