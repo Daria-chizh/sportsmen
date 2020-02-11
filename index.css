@@ -315,6 +315,7 @@ body {
   background-color: #4d79ff;
   position: relative;
   padding-top: 220px;
+  padding-bottom: 20px;
   z-index: 1;
 }
 
@@ -383,7 +384,6 @@ body {
 .footer-logo-container {
   margin-top: 250px;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .dark-blue-bg {
